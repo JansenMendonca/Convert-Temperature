@@ -23,3 +23,17 @@ function convertTemp(){
 
 
 }
+
+// Script to activate through Enter key 
+
+function hitEnter(){
+	
+	var hitEnter = document.getElementById('tempValue');
+	hitEnter.onkeydown =  function(e){
+	
+		if(e.keyCode === 13){
+			document.getElementById('button').click();
+		}
+
+	}
+}
