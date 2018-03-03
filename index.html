@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Convertion Thermometer</title>
+	<meta charset="utf-8">
+
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<script type="text/javascript" src="script.js"></script>
+
+</head>
+<body>
+
+	<div id="main-box">
+		<div id="head"> 
+			<h1>Convert Temperature </h1>
+		</div>
+
+		<div id="main">
+			From: <select id="tempFrom">
+					<option value="1">C / Celsius</option>
+					<option value="2">F / Fahrenheit</option>
+			</select>
+
+			To: <select id="tempTo">
+					<option value="1">F / Fahrenheit</option>
+					<option value="2">C / Celsius</option>
+			</select> <br/><br/><br/>
+
+			Digit Value: <input type="text" id="tempValue" placeholder="temperature"> <br/><br/><br/>
+
+			<span id="main-button"><input type="submit" value="Convert" id="button" onclick="convertTemp()"></span>
+		</div>
+
+		<div id="img">
+			<img src="img/therm1.png">
+
+		</div>	
+
+		<div id="bottom">
+			Converted Temperature: <input type="text" id="convertedTemp" placeholder="converted temperature">
+		</div>
+
+	</div>
+
+</body>
+</html>

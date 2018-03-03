@@ -1,0 +1,55 @@
+body{
+			background: #abbaab;  /* fallback for old browsers */
+			background: -webkit-linear-gradient(to right, #ffffff, #abbaab);  /* Chrome 10-25, Safari 5.1-6 */
+			background: linear-gradient(to right, #ffffff, #abbaab); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+		}
+
+		#main-box{
+			margin: auto;
+			margin-top: 50px;
+			width: 600px;
+			height: 800px;
+			background: #666;
+			border-radius: 2%;
+		}
+
+		#head{
+			color:#E0F8EC;
+			border-bottom: 1px solid #E0F8EC;
+			text-align: center;
+			font-size: 16px;
+			font-family: Arial, Helvetica, sans-serif;
+			padding-top: 5px;
+
+
+		}
+
+		#main{
+			color: #E0F8EC;
+			font-size: 16px;
+			font-family: Arial, Helvetica, sans-serif;
+			padding-top: 5px;
+			margin: 50px 140px;
+		}
+
+
+		#main-button{
+			color: #E0F8EC;
+			font-size: 16px;
+			font-family: Arial, Helvetica, sans-serif;
+			padding-top: 5px;
+			margin: 50px 140px;
+		}
+
+		#bottom{
+			color: #E0F8EC;
+			font-size: 16px;
+			font-family: Arial, Helvetica, sans-serif;
+			padding-top: 5px;
+			margin: 50px 100px;
+		}
+
+		#img{
+			margin: 50px 180px;
+		}
